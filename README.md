@@ -1,4 +1,4 @@
-# Rocket clock
+# Rocket Clock
 
 A network connected clock with ESP8266 designed to work with [Laurence Keir's Sleep Training Rocket Clock](https://www.thingiverse.com/thing:3404826).
 
@@ -11,6 +11,12 @@ This code connects to the specified time server to retrieve the current time adj
 ### Hardware
 
 Connect two LEDs (recommended a red LED for day time and a blue LED for night time) to two ESP8266 pins and the Ground pin through 220 Ohm resistors.
+
+![](./doc/wiring/rocket-clock-breadboard.png)
+
+![](./doc/wiring/rocket-clock-schematic.png)
+
+If you wish to further improve this wiring you can download the [Fritzing Sketch](./doc/wiring/rocket-clock.fzz) as well.
 
 ### Software
 
@@ -30,6 +36,7 @@ Open your favorite web browser and navigate to `http://192.168.4.1`, and configu
 
 Thanks to [Andreas Spiess](https://github.com/SensorsIot) for sharing his [NTP library for ESP8266](https://github.com/SensorsIot/NTPtimeESP), though I have to change his code to make it more reliable.
 
+Thanks to [Roman Minyanlov](https://github.com/roman-minyaylov) for sharing his [NodeMCU Fritzing part](https://github.com/roman-minyaylov/fritzing-parts). I copied the current version of that part into the `.doc/wiring/esp8266-nodemcu-v3` folder.
 
 ## About the author
 
