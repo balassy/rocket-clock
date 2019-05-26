@@ -36,7 +36,7 @@ Open your favorite web browser and navigate to `http://192.168.4.1`, and configu
 
 Thanks to [Andreas Spiess](https://github.com/SensorsIot) for sharing his [NTP library for ESP8266](https://github.com/SensorsIot/NTPtimeESP), though I have to change his code to make it more reliable.
 
-Thanks to [Roman Minyanlov](https://github.com/roman-minyaylov) for sharing his [NodeMCU Fritzing part](https://github.com/roman-minyaylov/fritzing-parts). I copied the current version of that part into the `.doc/wiring/esp8266-nodemcu-v3` folder.
+Thanks to [Roman Minyaylov](https://github.com/roman-minyaylov) for sharing his [NodeMCU Fritzing part](https://github.com/roman-minyaylov/fritzing-parts). I copied the current version of that part into the `.doc/wiring/esp8266-nodemcu-v3` folder.
 
 ## About the author
 
