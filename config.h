@@ -11,8 +11,8 @@ const int DST_ADJUSTMENT = 1; // 1 for European summer time; 2 for US daylight s
 // #define DEBUG_ON
 
 // Time period configuration.
-const byte DAYTIME_BEGIN_HOUR = 8;
-const byte DAYTIME_END_HOUR = 10;
+const byte DAYTIME_BEGIN_HOUR = 7;
+const byte DAYTIME_END_HOUR = 20;
 
 // Pin configuration.
 const uint8_t PIN_DAY_LED = D6;
