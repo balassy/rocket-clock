@@ -91,7 +91,7 @@ strDateTime getCurrentTime() {
   } else {
     Serial.println("Getting current time failed, waiting and trying again...");
     delay(100);  // Adding this delay make the function work 100% reliable on the subsequent try.
-    getCurrentTime();
+    return getCurrentTime();
   }
 }
 
