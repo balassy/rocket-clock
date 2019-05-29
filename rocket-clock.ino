@@ -23,6 +23,7 @@ void setup() {
   initNetwork();
   initTimeServerConnection();
 
+  Serial.printf("Configured day time: %d:00-%d:00.\n", DAYTIME_BEGIN_HOUR, DAYTIME_END_HOUR);
   Serial.println("Setup completed.");
 }
 
@@ -36,11 +37,10 @@ void initLeds() {
   nightLed.setPin(PIN_NIGHT_LED);
   dayLed.setPin(PIN_DAY_LED);
 
+  // Turn on both LEDs for diagnostics.
+  // After the first time server call only the active will remain on.
   nightLed.turnOn();
   dayLed.turnOn();
-  delay(500);
-  nightLed.turnOff();
-  dayLed.turnOff();
 }
 
 void initNetwork() {
