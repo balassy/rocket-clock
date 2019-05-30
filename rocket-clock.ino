@@ -97,5 +97,6 @@ strDateTime getCurrentTime() {
 
 bool isDayTime(strDateTime currentTime) {
   byte currentHour = currentTime.hour;
-  return currentHour >= DAYTIME_BEGIN_HOUR && currentHour <= DAYTIME_END_HOUR;
+  Serial.printf("Current hour: %d\n", currentHour);
+  return currentHour >= DAYTIME_BEGIN_HOUR && currentHour < DAYTIME_END_HOUR;
 }
