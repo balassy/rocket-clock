@@ -2,6 +2,8 @@
 
 A network connected clock with ESP8266 designed to work with [Laurence Keir's Sleep Training Rocket Clock](https://www.thingiverse.com/thing:3404826).
 
+![](./doc/photo.jpg)
+
 ## How it works
 
 This code connects to the specified time server to retrieve the current time adjusted to your current time zone and daylight saving preferences. Based on the specified time range for day time and night time it turns the appropriate LEDs on or off.
