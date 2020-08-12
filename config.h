@@ -14,6 +14,10 @@ const int DST_ADJUSTMENT = 1; // 1 for European summer time; 2 for US daylight s
 const byte DAYTIME_BEGIN_HOUR = 7;
 const byte DAYTIME_END_HOUR = 20;
 
+// Time server access.
+const int NTP_MAX_RETRY_COUNT = 10;
+const int NTP_RETRY_DELAY_MSEC = 5000;
+
 // Pin configuration.
 const uint8_t PIN_DAY_LED = D6;
 const uint8_t PIN_NIGHT_LED = D5;
